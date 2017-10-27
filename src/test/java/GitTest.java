@@ -116,7 +116,7 @@ public class GitTest {
 
         // 设置远程服务器上的用户名和密码
         UsernamePasswordCredentialsProvider usernamePasswordCredentialsProvider =new
-                UsernamePasswordCredentialsProvider("903595558@qq.com","worinima741sb.");
+                UsernamePasswordCredentialsProvider("903595558@qq.com","worinima.");
 
         push.setCredentialsProvider(usernamePasswordCredentialsProvider);
         push.setForce(true);
