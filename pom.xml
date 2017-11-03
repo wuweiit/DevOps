@@ -7,7 +7,10 @@
     <groupId>com.wuweibi.devops</groupId>
     <artifactId>ci</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>../DevOpAs/gent</module>
+    </modules>
+    <packaging>pom</packaging>
     <build>
         <plugins>
             <!-- 打包jar文件时，配置manifest文件，加入lib包的jar依赖 -->
